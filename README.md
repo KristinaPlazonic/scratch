@@ -4,7 +4,7 @@
 
 ### Three heading
 
-||a||b||
+|a|b|
 ---|---
 | a | b |
 
