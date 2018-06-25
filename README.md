@@ -7,6 +7,9 @@
 |a|b|
 ---|---
 | a | b |
+| a | b |
+| a | b |
+| a | b |
 
 
 ### Another 3 heading
