@@ -1,0 +1,9 @@
+site_name: Marshmallow Generator
+repo_url: https://github.com/KristinaPlazonic
+pages:
+- Introduction: 'a.md'
+- User Guide:
+    - 'Creating a new Marshmallow project': 'user-guide/b.md'
+- About:
+    - License: 'about/license.md'
+theme: readthedocs
