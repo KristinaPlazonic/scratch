@@ -1,0 +1,19 @@
+{
+    "docs": [
+        {
+            "location": "/a/",
+            "text": "this is page A: \n\n\n\n\none line\n\n\ntwo line\n\n\nred line\n\n\nblue line",
+            "title": "Introduction"
+        },
+        {
+            "location": "/user-guide/b/",
+            "text": "this is page B \n\n\n\n\n\n\n\n\ntab1\n\n\ntab2\n\n\n\n\n\n\n\n\n\n\na\n\n\nb\n\n\n\n\n\n\na\n\n\nb\n\n\n\n\n\n\na\n\n\nb\n\n\n\n\n\n\na\n\n\nb",
+            "title": "Creating a new Marshmallow project"
+        },
+        {
+            "location": "/about/licence/",
+            "text": "jfkdlsa;jfkdls;ajkfdls;ajkfldsa;",
+            "title": "License"
+        }
+    ]
+}
