@@ -1,0 +1,91 @@
+-- Logs begin at Wed 2017-11-08 18:12:31 EST, end at Thu 2018-08-30 11:11:16 EDT. --
+Aug 30 10:57:34 puki.localdomain NetworkManager[937]: <info>  [1535641054.2458] dhcp (wlp3s0):   domain search 'ruw.rutgers.edu.'
+Aug 30 10:57:34 puki.localdomain dbus-daemon[795]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=937 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Aug 30 10:57:34 puki.localdomain NetworkManager[937]: <info>  [1535641054.2458] dhcp4 (wlp3s0): state changed bound -> bound
+Aug 30 10:57:34 puki.localdomain systemd[1]: Starting Network Manager Script Dispatcher Service...
+Aug 30 10:57:34 puki.localdomain dhclient[26120]: bound to 172.25.153.178 -- renewal in 396 seconds.
+Aug 30 10:57:34 puki.localdomain dbus-daemon[795]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Aug 30 10:57:34 puki.localdomain systemd[1]: Started Network Manager Script Dispatcher Service.
+Aug 30 10:57:34 puki.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 30 10:57:34 puki.localdomain nm-dispatcher[26796]: req:1 'dhcp4-change' [wlp3s0]: new request (5 scripts)
+Aug 30 10:57:34 puki.localdomain nm-dispatcher[26796]: req:1 'dhcp4-change' [wlp3s0]: start running ordered scripts...
+Aug 30 10:57:44 puki.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 30 11:01:01 puki.localdomain CROND[27030]: (root) CMD (run-parts /etc/cron.hourly)
+Aug 30 11:01:01 puki.localdomain run-parts[27033]: (/etc/cron.hourly) starting 0anacron
+Aug 30 11:01:01 puki.localdomain run-parts[27039]: (/etc/cron.hourly) finished 0anacron
+Aug 30 11:01:47 puki.localdomain gnome-shell[1921]: The property brightness doesn't seem to be a normal object property of [0x55b79c181440 StWidget] or a registered special property
+Aug 30 11:01:47 puki.localdomain gnome-shell[1921]: The property vignette_sharpness doesn't seem to be a normal object property of [0x55b79c181440 StWidget] or a registered special property
+Aug 30 11:02:19 puki.localdomain gnome-terminal-[15830]: Allocating size to GtkScrollbar 0x5594bc69a330 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+Aug 30 11:02:27 puki.localdomain gnome-terminal-[15830]: Allocating size to GtkScrollbar 0x5594bc69a330 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+Aug 30 11:02:33 puki.localdomain gnome-terminal-[15830]: Allocating size to GtkScrollbar 0x5594bc69a930 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+Aug 30 11:03:42 puki.localdomain systemd[1]: Starting dnf makecache...
+Aug 30 11:03:42 puki.localdomain dnf[27239]: Metadata cache refreshed recently.
+Aug 30 11:03:42 puki.localdomain systemd[1]: Started dnf makecache.
+Aug 30 11:03:42 puki.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=dnf-makecache comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 30 11:03:42 puki.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=dnf-makecache comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 30 11:04:11 puki.localdomain dhclient[26120]: DHCPREQUEST on wlp3s0 to 192.0.2.2 port 67 (xid=0x91f68a33)
+Aug 30 11:04:11 puki.localdomain dhclient[26120]: DHCPACK from 192.0.2.2 (xid=0x91f68a33)
+Aug 30 11:04:11 puki.localdomain NetworkManager[937]: <info>  [1535641451.1084] dhcp4 (wlp3s0):   address 172.25.153.178
+Aug 30 11:04:11 puki.localdomain NetworkManager[937]: <info>  [1535641451.1087] dhcp4 (wlp3s0):   plen 20 (255.255.240.0)
+Aug 30 11:04:11 puki.localdomain NetworkManager[937]: <info>  [1535641451.1088] dhcp4 (wlp3s0):   gateway 172.25.144.1
+Aug 30 11:04:11 puki.localdomain NetworkManager[937]: <info>  [1535641451.1088] dhcp4 (wlp3s0):   lease time 900
+Aug 30 11:04:11 puki.localdomain NetworkManager[937]: <info>  [1535641451.1088] dhcp4 (wlp3s0):   nameserver '128.6.1.1'
+Aug 30 11:04:11 puki.localdomain NetworkManager[937]: <info>  [1535641451.1088] dhcp4 (wlp3s0):   domain name 'ruw.rutgers.edu'
+Aug 30 11:04:11 puki.localdomain NetworkManager[937]: <info>  [1535641451.1088] dhcp (wlp3s0):   domain search 'ruw.rutgers.edu.'
+Aug 30 11:04:11 puki.localdomain NetworkManager[937]: <info>  [1535641451.1088] dhcp4 (wlp3s0): state changed bound -> bound
+Aug 30 11:04:11 puki.localdomain dbus-daemon[795]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=937 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Aug 30 11:04:11 puki.localdomain systemd[1]: Starting Network Manager Script Dispatcher Service...
+Aug 30 11:04:11 puki.localdomain dbus-daemon[795]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Aug 30 11:04:11 puki.localdomain systemd[1]: Started Network Manager Script Dispatcher Service.
+Aug 30 11:04:11 puki.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 30 11:04:11 puki.localdomain nm-dispatcher[27269]: req:1 'dhcp4-change' [wlp3s0]: new request (5 scripts)
+Aug 30 11:04:11 puki.localdomain nm-dispatcher[27269]: req:1 'dhcp4-change' [wlp3s0]: start running ordered scripts...
+Aug 30 11:04:11 puki.localdomain dhclient[26120]: bound to 172.25.153.178 -- renewal in 407 seconds.
+Aug 30 11:04:20 puki.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 30 11:04:46 puki.localdomain wpa_supplicant[1147]: wlp3s0: SME: Trying to authenticate with 04:62:73:6a:22:3b (SSID='RUWireless Secure' freq=5260 MHz)
+Aug 30 11:04:46 puki.localdomain kernel: wlp3s0: disconnect from AP 04:62:73:48:ff:4b for new auth to 04:62:73:6a:22:3b
+Aug 30 11:04:46 puki.localdomain kernel: wlp3s0: authenticate with 04:62:73:6a:22:3b
+Aug 30 11:04:46 puki.localdomain kernel: wlp3s0: send auth to 04:62:73:6a:22:3b (try 1/3)
+Aug 30 11:04:46 puki.localdomain kernel: wlp3s0: authenticated
+Aug 30 11:04:46 puki.localdomain NetworkManager[937]: <info>  [1535641486.1228] device (wlp3s0): supplicant interface state: completed -> authenticating
+Aug 30 11:04:46 puki.localdomain wpa_supplicant[1147]: wlp3s0: Trying to associate with 04:62:73:6a:22:3b (SSID='RUWireless Secure' freq=5260 MHz)
+Aug 30 11:04:46 puki.localdomain kernel: wlp3s0: associate with 04:62:73:6a:22:3b (try 1/3)
+Aug 30 11:04:46 puki.localdomain kernel: wlp3s0: RX ReassocResp from 04:62:73:6a:22:3b (capab=0x111 status=0 aid=28)
+Aug 30 11:04:46 puki.localdomain kernel: wlp3s0: associated
+Aug 30 11:04:46 puki.localdomain wpa_supplicant[1147]: wlp3s0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+Aug 30 11:04:46 puki.localdomain wpa_supplicant[1147]: wlp3s0: Associated with 04:62:73:6a:22:3b
+Aug 30 11:04:46 puki.localdomain wpa_supplicant[1147]: wlp3s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Aug 30 11:04:46 puki.localdomain wpa_supplicant[1147]: wlp3s0: WPA: Key negotiation completed with 04:62:73:6a:22:3b [PTK=CCMP GTK=CCMP]
+Aug 30 11:04:46 puki.localdomain wpa_supplicant[1147]: wlp3s0: CTRL-EVENT-CONNECTED - Connection to 04:62:73:6a:22:3b completed [id=0 id_str=]
+Aug 30 11:04:46 puki.localdomain wpa_supplicant[1147]: wlp3s0: CTRL-EVENT-REGDOM-CHANGE init=USER type=COUNTRY alpha2=US
+Aug 30 11:04:46 puki.localdomain wpa_supplicant[1147]: wlp3s0: CTRL-EVENT-REGDOM-CHANGE init=COUNTRY_IE type=COUNTRY alpha2=US
+Aug 30 11:04:46 puki.localdomain NetworkManager[937]: <info>  [1535641486.1688] device (wlp3s0): supplicant interface state: authenticating -> associated
+Aug 30 11:04:46 puki.localdomain kernel: wlp3s0: Limiting TX power to 2 dBm as advertised by 04:62:73:6a:22:3b
+Aug 30 11:04:46 puki.localdomain wpa_supplicant[1147]: wlp3s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-56 noise=9999 txrate=173300
+Aug 30 11:04:46 puki.localdomain NetworkManager[937]: <info>  [1535641486.1827] device (wlp3s0): supplicant interface state: associated -> completed
+Aug 30 11:10:31 puki.localdomain anacron[23498]: Job `cron.weekly' started
+Aug 30 11:10:31 puki.localdomain run-parts[27667]: (/etc/cron.weekly) starting 98-zfs-fuse-scrub
+Aug 30 11:10:31 puki.localdomain run-parts[27671]: (/etc/cron.weekly) finished 98-zfs-fuse-scrub
+Aug 30 11:10:31 puki.localdomain anacron[23498]: Job `cron.weekly' terminated
+Aug 30 11:10:31 puki.localdomain anacron[23498]: Normal exit (2 jobs run)
+Aug 30 11:10:59 puki.localdomain dhclient[26120]: DHCPREQUEST on wlp3s0 to 192.0.2.2 port 67 (xid=0x91f68a33)
+Aug 30 11:10:59 puki.localdomain dhclient[26120]: DHCPACK from 192.0.2.2 (xid=0x91f68a33)
+Aug 30 11:10:59 puki.localdomain NetworkManager[937]: <info>  [1535641859.0854] dhcp4 (wlp3s0):   address 172.25.153.178
+Aug 30 11:10:59 puki.localdomain NetworkManager[937]: <info>  [1535641859.0855] dhcp4 (wlp3s0):   plen 20 (255.255.240.0)
+Aug 30 11:10:59 puki.localdomain NetworkManager[937]: <info>  [1535641859.0855] dhcp4 (wlp3s0):   gateway 172.25.144.1
+Aug 30 11:10:59 puki.localdomain NetworkManager[937]: <info>  [1535641859.0855] dhcp4 (wlp3s0):   lease time 900
+Aug 30 11:10:59 puki.localdomain NetworkManager[937]: <info>  [1535641859.0855] dhcp4 (wlp3s0):   nameserver '128.6.1.1'
+Aug 30 11:10:59 puki.localdomain NetworkManager[937]: <info>  [1535641859.0855] dhcp4 (wlp3s0):   domain name 'ruw.rutgers.edu'
+Aug 30 11:10:59 puki.localdomain NetworkManager[937]: <info>  [1535641859.0855] dhcp (wlp3s0):   domain search 'ruw.rutgers.edu.'
+Aug 30 11:10:59 puki.localdomain NetworkManager[937]: <info>  [1535641859.0856] dhcp4 (wlp3s0): state changed bound -> bound
+Aug 30 11:10:59 puki.localdomain dbus-daemon[795]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=937 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Aug 30 11:10:59 puki.localdomain systemd[1]: Starting Network Manager Script Dispatcher Service...
+Aug 30 11:10:59 puki.localdomain dbus-daemon[795]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Aug 30 11:10:59 puki.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 30 11:10:59 puki.localdomain dhclient[26120]: bound to 172.25.153.178 -- renewal in 434 seconds.
+Aug 30 11:10:59 puki.localdomain systemd[1]: Started Network Manager Script Dispatcher Service.
+Aug 30 11:10:59 puki.localdomain nm-dispatcher[27713]: req:1 'dhcp4-change' [wlp3s0]: new request (5 scripts)
+Aug 30 11:10:59 puki.localdomain nm-dispatcher[27713]: req:1 'dhcp4-change' [wlp3s0]: start running ordered scripts...
+Aug 30 11:11:08 puki.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 30 11:11:09 puki.localdomain gnome-terminal-[15830]: Allocating size to GtkScrollbar 0x5594bc69a330 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+Aug 30 11:11:16 puki.localdomain gnome-terminal-[15830]: Allocating size to GtkScrollbar 0x5594bc69a930 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?

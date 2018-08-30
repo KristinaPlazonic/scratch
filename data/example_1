@@ -1,0 +1,11 @@
+-- Logs begin at Wed 2017-11-08 18:12:31 EST, end at Thu 2018-08-30 11:11:16 EDT. --
+Aug 30 11:10:59 puki.localdomain systemd[1]: Starting Network Manager Script Dispatcher Service...
+Aug 30 11:10:59 puki.localdomain dbus-daemon[795]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Aug 30 11:10:59 puki.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 30 11:10:59 puki.localdomain dhclient[26120]: bound to 172.25.153.178 -- renewal in 434 seconds.
+Aug 30 11:10:59 puki.localdomain systemd[1]: Started Network Manager Script Dispatcher Service.
+Aug 30 11:10:59 puki.localdomain nm-dispatcher[27713]: req:1 'dhcp4-change' [wlp3s0]: new request (5 scripts)
+Aug 30 11:10:59 puki.localdomain nm-dispatcher[27713]: req:1 'dhcp4-change' [wlp3s0]: start running ordered scripts...
+Aug 30 11:11:08 puki.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 30 11:11:09 puki.localdomain gnome-terminal-[15830]: Allocating size to GtkScrollbar 0x5594bc69a330 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+Aug 30 11:11:16 puki.localdomain gnome-terminal-[15830]: Allocating size to GtkScrollbar 0x5594bc69a930 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
