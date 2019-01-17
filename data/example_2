@@ -1,0 +1,21 @@
+-- Logs begin at Sun 2018-02-18 11:33:06 EST, end at Thu 2019-01-17 11:17:20 EST. --
+Jan 17 11:16:42 puki.localdomain NetworkManager[989]: <info>  [1547741802.3723] dhcp4 (wlp3s0):   plen 20 (255.255.240.0)
+Jan 17 11:16:42 puki.localdomain NetworkManager[989]: <info>  [1547741802.3723] dhcp4 (wlp3s0):   gateway 172.25.144.1
+Jan 17 11:16:42 puki.localdomain NetworkManager[989]: <info>  [1547741802.3723] dhcp4 (wlp3s0):   lease time 900
+Jan 17 11:16:42 puki.localdomain NetworkManager[989]: <info>  [1547741802.3723] dhcp4 (wlp3s0):   nameserver '172.29.219.174'
+Jan 17 11:16:42 puki.localdomain NetworkManager[989]: <info>  [1547741802.3723] dhcp4 (wlp3s0):   nameserver '172.29.219.216'
+Jan 17 11:16:42 puki.localdomain NetworkManager[989]: <info>  [1547741802.3723] dhcp4 (wlp3s0):   domain name 'ruw.rutgers.edu'
+Jan 17 11:16:42 puki.localdomain dbus-daemon[801]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.17' (uid=0 pid=989 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:NetworkManager_t:s0")
+Jan 17 11:16:42 puki.localdomain NetworkManager[989]: <info>  [1547741802.3723] dhcp (wlp3s0):   domain search 'ruw.rutgers.edu.'
+Jan 17 11:16:42 puki.localdomain NetworkManager[989]: <info>  [1547741802.3724] dhcp4 (wlp3s0): state changed bound -> bound
+Jan 17 11:16:42 puki.localdomain systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jan 17 11:16:42 puki.localdomain dhclient[6434]: bound to 172.25.148.141 -- renewal in 442 seconds.
+Jan 17 11:16:42 puki.localdomain dbus-daemon[801]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan 17 11:16:42 puki.localdomain systemd[1]: Started Network Manager Script Dispatcher Service.
+Jan 17 11:16:42 puki.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jan 17 11:16:42 puki.localdomain nm-dispatcher[7196]: req:1 'dhcp4-change' [wlp3s0]: new request (3 scripts)
+Jan 17 11:16:42 puki.localdomain nm-dispatcher[7196]: req:1 'dhcp4-change' [wlp3s0]: start running ordered scripts...
+Jan 17 11:16:52 puki.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jan 17 11:16:53 puki.localdomain chronyd[847]: Selected source 172.28.193.2
+Jan 17 11:17:17 puki.localdomain wpa_supplicant[1196]: wlp3s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-43 noise=9999 txrate=173300
+Jan 17 11:17:20 puki.localdomain wpa_supplicant[1196]: wlp3s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-44 noise=9999 txrate=173300
